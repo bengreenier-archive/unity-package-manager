@@ -1,0 +1,28 @@
+{
+  "name": "unity-package-manager",
+  "version": "0.1.0",
+  "description": "package management for unity",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "unity",
+    "package"
+  ],
+  "author": "Ben Greenier",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "del": "^2.2.2",
+    "rc": "^1.1.7",
+    "unity-package-authentication": "^0.2.0",
+    "unity-package-decrypt": "^0.1.0",
+    "unity-package-download": "^0.2.0",
+    "unity-package-extract": "^0.2.0",
+    "unity-package-search": "^0.2.0",
+    "write": "^0.3.2"
+  }
+}
